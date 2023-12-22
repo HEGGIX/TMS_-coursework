@@ -43,6 +43,10 @@ body {
   width: 157px;
   height: 40px;
   margin-left: 120px;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
 }
 
 .btn-demo:hover {
@@ -68,8 +72,125 @@ body {
 }
 
 .ecommerce-wrapper {
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1210px;
+  height: 695px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.ecommerce-subtitle {
+  color: #000;
+  margin-top: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.ecommerce-title {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 61px;
+}
+
+.ecommerce-title:nth-child(2) {
+  color: #6f2cff;
+  line-height: 54px;
+}
+
+.ecommerce__text-container {
+  width: 438px;
+  margin-top: 26.5px;
+  margin-bottom: 0;
+}
+
+.ecommerce-text {
+  color: #000;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.ecommerce__bold-text {
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 30px;
+}
+
+.ecommerce-form {
+  display: flex;
+}
+
+.ecommerce-inp {
+  border: 1px solid #6f2cff;
+  border-radius: 27.5px 0 0 27.5px;
+  width: 262px;
+  height: 41px;
+}
+
+.ecommerce-inp::placeholder {
+  padding-left: 26px;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.ecommerce-btn {
+  color: #fff;
+  background-color: #6f2cff;
+  border: 1px solid #6f2cff;
+  border-radius: 0 27.5px 27.5px 0;
+  width: 189px;
+  height: 45px;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.ecommerce-btn:hover {
+  cursor: pointer;
+}
+
+.brands-wrapper {
+  flex-direction: column;
+  align-items: center;
   max-width: 1210px;
   margin: 0 auto;
+  display: flex;
+}
+
+.brands-title {
+  margin-top: 35px;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.brands-container {
+  justify-content: space-between;
+  align-items: center;
+  width: 1210px;
+  height: 70px;
+  display: flex;
+}
+
+.brands-link {
+  border-bottom: 2px solid #6f2cff;
+  margin-bottom: 21px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
 }
 
 /*# sourceMappingURL=index.1b44cdfa.css.map */
