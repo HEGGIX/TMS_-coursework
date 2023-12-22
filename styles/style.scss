@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+}
+
+.header-wrapper{
+    height: 60px;
+    margin: 0 auto;
+    max-width: 1380px;
+    display: flex;
+    align-items: center;
+}
+
+.header-nav{
+    margin-left: 157px;
+}
+
+.header__nav-container{
+    width: 781px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 0;
+}
+
+@mixin headerText(){
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    color: #1C1C1C;
+}
+
+.header-item{
+    @include headerText();
+}
+
+.btn-demo{
+    width: 157px;
+    height: 40px;
+    border: 1px solid #6F2CFF;
+    border-radius: 20px;
+    background: #6F2CFF;
+    color: #FFFFFF;
+    margin-left: 120px
+}
+
+.log-in{
+    @include headerText();
+    margin-left: 38px;
+}
