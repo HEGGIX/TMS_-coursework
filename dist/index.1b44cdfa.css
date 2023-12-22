@@ -15,6 +15,7 @@ body {
 }
 
 .header__nav-container {
+  flex-wrap: wrap;
   justify-content: space-between;
   width: 781px;
   padding-left: 0;
@@ -30,6 +31,10 @@ body {
   line-height: 14px;
 }
 
+.header-item:hover {
+  cursor: pointer;
+}
+
 .btn-demo {
   color: #fff;
   background: #6f2cff;
@@ -40,6 +45,10 @@ body {
   margin-left: 120px;
 }
 
+.btn-demo:hover {
+  cursor: pointer;
+}
+
 .log-in {
   color: #1c1c1c;
   margin-left: 38px;
@@ -47,6 +56,20 @@ body {
   font-size: 14px;
   font-weight: 400;
   line-height: 14px;
+}
+
+.log-in:hover {
+  cursor: pointer;
+}
+
+.ecommerce {
+  background: url("qubit-background.42bce343.png") 0 0 / cover;
+  height: 695px;
+}
+
+.ecommerce-wrapper {
+  max-width: 1210px;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=index.1b44cdfa.css.map */
