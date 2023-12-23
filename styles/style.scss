@@ -447,3 +447,239 @@ body{
 .products__book-btn:hover{
     cursor: pointer;
 }
+
+.possibilities-wrapper{
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.possibilities-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #000000;
+    text-align: center;
+    margin-top: 94px;
+    margin-bottom: 0;
+}
+
+.possibilities__item-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 58px;
+    margin-bottom: 220px;
+}
+
+.possibilities-item{
+    width: 27.1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.possibilities-second{
+    margin-top: 80px;
+}
+
+.possibilities__item-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #000000;
+    margin-top: 5px;
+    margin-bottom: 11px;
+}
+
+.possibilities__item-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #000000;
+    text-align: center;
+    margin-top: 0;
+}
+
+.carousel{
+    width: 100%;
+    background: #F5F5F5;
+}
+
+.carousel-wrapper{
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+.carousel-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #000000;
+    text-align: center;
+    padding-top: 89px;
+    margin-top: 0;
+}
+
+.carousel-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+    padding-bottom: 105px;
+}
+
+.carousel-item{
+    width: 27.83%;
+    height: 438px;
+    background: #FFFFFF;
+    border: 1px solid transparent;
+    border-radius: 0 0 7px 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carousel__item-girls{
+    width: 100%;
+}
+
+.carousel__item-brands{
+    margin-top: 25px;
+}
+
+.carousel__item-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #6F2CFF;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.arrow:hover{
+    cursor: pointer;
+}
+
+.ecosystem{
+    width: 100%;
+    background: #F5F5F5;
+    padding-bottom: 20px;
+}
+
+.ecosystem-wrapper{
+    max-width: 1260px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.ecosystem__text-container{
+    width: 48.41%;
+    height: 305px;
+    margin-right: 83px;
+}
+
+.ecosystem-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #000000;
+    margin-top: 0;
+    margin-bottom: 47px;
+}
+
+.ecosystem-text{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #000000;
+}
+
+.ecosystem__text-second{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+.ecosystem-btn{
+    width: 33%;
+    height: 40px;
+    background: #6F2CFF;
+    color: #FFFFFF;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    margin-top: 74px;
+}
+
+.ecosystem-btn:hover{
+    cursor: pointer;
+}
+
+.footer{
+    width: 100%;
+    height: 330px;
+    background: url(/styles/img/footer-bg.png);
+    background-size: cover;
+}
+
+.footer-wrapper{
+    max-width: 1440px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    color:#FFFFFF;
+}
+
+.footer-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-inp{
+    width: 18.6%;
+    height: 41px;
+    border: 1px solid #6F2CFF;
+    border-radius: 27.5px 0px 0px 27.5px;
+}
+
+.footer-inp::placeholder{
+    padding-left: 26px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.footer-btn{
+    width: 13%;
+    height: 45px;
+    border: 1px solid #6F2CFF;
+    border-radius: 0px 27.5px 27.5px 0px;
+    background-color: #6F2CFF;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
+}

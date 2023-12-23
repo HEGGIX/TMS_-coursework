@@ -447,4 +447,239 @@ body {
   cursor: pointer;
 }
 
+.possibilities-wrapper {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.possibilities-title {
+  color: #000;
+  text-align: center;
+  margin-top: 94px;
+  margin-bottom: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.possibilities__item-container {
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 58px;
+  margin-bottom: 220px;
+  display: flex;
+}
+
+.possibilities-item {
+  flex-direction: column;
+  align-items: center;
+  width: 27.1%;
+  display: flex;
+}
+
+.possibilities-second {
+  margin-top: 80px;
+}
+
+.possibilities__item-title {
+  color: #000;
+  margin-top: 5px;
+  margin-bottom: 11px;
+  font-family: Roboto, sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.possibilities__item-text {
+  color: #000;
+  text-align: center;
+  margin-top: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+}
+
+.carousel {
+  background: #f5f5f5;
+  width: 100%;
+}
+
+.carousel-wrapper {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.carousel-title {
+  color: #000;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 89px;
+  font-family: Roboto, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.carousel-container {
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 75px;
+  padding-bottom: 105px;
+  display: flex;
+}
+
+.carousel-item {
+  background: #fff;
+  border: 1px solid #0000;
+  border-radius: 0 0 7px 7px;
+  flex-direction: column;
+  align-items: center;
+  width: 27.83%;
+  height: 438px;
+  display: flex;
+}
+
+.carousel__item-girls {
+  width: 100%;
+}
+
+.carousel__item-brands {
+  margin-top: 25px;
+}
+
+.carousel__item-text {
+  color: #6f2cff;
+  text-align: center;
+  margin-top: 25px;
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.arrow:hover {
+  cursor: pointer;
+}
+
+.ecosystem {
+  background: #f5f5f5;
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.ecosystem-wrapper {
+  align-items: center;
+  max-width: 1260px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.ecosystem__text-container {
+  width: 48.41%;
+  height: 305px;
+  margin-right: 83px;
+}
+
+.ecosystem-title {
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 47px;
+  font-family: Roboto, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.ecosystem-text {
+  color: #000;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.ecosystem__text-second {
+  color: #000;
+  margin-bottom: 0;
+  font-family: Roboto, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.ecosystem-btn {
+  color: #fff;
+  background: #6f2cff;
+  border: 1px solid #0000;
+  border-radius: 30px;
+  width: 33%;
+  height: 40px;
+  margin-top: 74px;
+}
+
+.ecosystem-btn:hover {
+  cursor: pointer;
+}
+
+.footer {
+  background: url("footer-bg.2b118f00.png") 0 0 / cover;
+  width: 100%;
+  height: 330px;
+}
+
+.footer-wrapper {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 1440px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.footer-title {
+  color: #fff;
+  font-family: Roboto, sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 45px;
+}
+
+.footer-form {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+}
+
+.footer-inp {
+  border: 1px solid #6f2cff;
+  border-radius: 27.5px 0 0 27.5px;
+  width: 18.6%;
+  height: 41px;
+}
+
+.footer-inp::placeholder {
+  padding-left: 26px;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.footer-btn {
+  color: #fff;
+  background-color: #6f2cff;
+  border: 1px solid #6f2cff;
+  border-radius: 0 27.5px 27.5px 0;
+  width: 13%;
+  height: 45px;
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
 /*# sourceMappingURL=index.1b44cdfa.css.map */
