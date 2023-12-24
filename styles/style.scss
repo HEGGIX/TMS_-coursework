@@ -541,6 +541,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 0 2px 4px 0 rgba(192, 192, 192, 0.5);
 }
 
 .carousel__item-girls{
@@ -563,6 +564,98 @@ body{
 
 .arrow:hover{
     cursor: pointer;
+}
+
+.industry-wrapper{
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.industry-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #000000;
+    text-align: center;
+    margin-top: 94px;
+    margin-bottom: 0;
+}
+
+.industry-subtitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #000000;
+    text-align: center;
+    margin-top: 12px;
+}
+
+.industry__item-container{
+    width: 100%;
+    margin-top: 65px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 48% 48%;
+    gap: 30px;
+}
+
+.industry-item{
+    width: 100%;
+    height: 100%;
+    background: #17002E;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.industry__item-wrapper{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.industry-item__title-container{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.industry__item-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    color:#FFFFFF;
+    margin-left: 20px;
+}
+
+@mixin industryText(){
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color:#FFFFFF;
+}
+
+.industry-item__text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.industry-text{
+    @include industryText();
+    line-height: 22px;
+    margin-top: 0;
+}
+
+.longer{
+   margin-bottom: 0;
+}
+
+.industry__second-text{
+    @include industryText();
+    line-height: 15px;
 }
 
 .ecosystem{
@@ -619,6 +712,10 @@ body{
     border: 1px solid transparent;
     border-radius: 30px;
     margin-top: 74px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 21px;
 }
 
 .ecosystem-btn:hover{
