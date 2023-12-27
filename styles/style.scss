@@ -192,6 +192,12 @@ body {
     align-items: center;
     justify-content: space-between;
   }
+
+  .brands-container{
+    &img{
+        width: 8.23%;
+    }
+  }
   
   .brands-link {
     font-family: "Roboto", sans-serif;
@@ -254,6 +260,7 @@ body {
   }
   
   .stats-link {
+    width: 23.1%;
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     font-weight: 700;

@@ -33,6 +33,8 @@ body {
 
 .header-item:hover {
   cursor: pointer;
+  color: #6f2cff;
+  transition: color .7s;
 }
 
 .btn-demo {
@@ -51,6 +53,8 @@ body {
 
 .btn-demo:hover {
   cursor: pointer;
+  background: #4e20b3;
+  transition: background .7s;
 }
 
 .log-in {
@@ -64,6 +68,8 @@ body {
 
 .log-in:hover {
   cursor: pointer;
+  color: #6f2cff;
+  transition: color .7s;
 }
 
 .burger-menu {
@@ -163,6 +169,8 @@ body {
 
 .ecommerce-btn:hover {
   cursor: pointer;
+  background: #4e20b3;
+  transition: background .7s;
 }
 
 .brands-wrapper {
@@ -189,6 +197,10 @@ body {
   display: flex;
 }
 
+.brands-containerimg {
+  width: 8.23%;
+}
+
 .brands-link {
   border-bottom: 2px solid #6f2cff;
   margin-bottom: 21px;
@@ -200,6 +212,8 @@ body {
 
 .brands-link:hover {
   cursor: pointer;
+  color: #6f2cff;
+  transition: color .7s;
 }
 
 .stats-wrapper {
@@ -244,11 +258,14 @@ body {
 
 .stats-btn:hover {
   cursor: pointer;
+  background: #4e20b3;
+  transition: background .7s;
 }
 
 .stats-link {
   color: #000;
   border-bottom: 2px solid #6f2cff;
+  width: 23.1%;
   font-family: Roboto, sans-serif;
   font-size: 14px;
   font-weight: 700;
@@ -256,7 +273,9 @@ body {
 }
 
 .stats-link:hover {
+  color: #6f2cff;
   cursor: pointer;
+  transition: color .7s;
 }
 
 .stats-pwc {
@@ -434,6 +453,9 @@ body {
 
 .products__see-btn:hover {
   cursor: pointer;
+  cursor: pointer;
+  background: #4e20b3;
+  transition: background .7s;
 }
 
 .products__book-btn {
@@ -451,6 +473,9 @@ body {
 
 .products__book-btn:hover {
   cursor: pointer;
+  cursor: pointer;
+  border: 1px solid #4e20b3;
+  transition: border .7s;
 }
 
 .possibilities-wrapper {
@@ -616,7 +641,7 @@ body {
 }
 
 .industry__item-wrapper {
-  max-width: 400px;
+  max-width: 87.71%;
   margin: 0 auto;
 }
 
@@ -660,6 +685,14 @@ body {
   font-size: 15px;
   font-weight: 400;
   line-height: 15px;
+}
+
+.industry__second-text:after {
+  content: "";
+  background: #fff;
+  width: 100px;
+  height: 2px;
+  display: inline;
 }
 
 .ecosystem {
@@ -724,6 +757,8 @@ body {
 
 .ecosystem-btn:hover {
   cursor: pointer;
+  background: #4e20b3;
+  transition: background .7s;
 }
 
 .footer {
@@ -786,6 +821,8 @@ body {
 
 .footer-btn:hover {
   cursor: pointer;
+  background: #4e20b3;
+  transition: background .7s;
 }
 
 /*# sourceMappingURL=index.1b44cdfa.css.map */
