@@ -36,6 +36,10 @@
   }
   
   @media (max-width: 1132px) {
+    .ecommerce{
+        background: #F6BED9;
+    }
+
     .header-nav {
       margin-left: 80px;
     }
@@ -95,14 +99,18 @@
       height: auto;
       flex-wrap: wrap;
     }
-  
-    .brands-container img {
-      width: 30%;
+
+    .brands-container img{
+        margin-left: 20px;
+    }
+
+    .brands-container:nth-child(1){
+        margin-left: 0;
     }
   
     .industry-wrapper {
       margin-left: 15px;
-      margin-right: 15px;
+      margin-right: 20px;
     }
   
     .ecosystem-btn {
@@ -242,6 +250,16 @@
       width: 100%;
       align-items: center;
       justify-content: center;
+      margin-top: 20px;
+    }
+
+    .carousel-item{
+        width: 40%;
+        height: 430px;
+    }
+
+    .carousel-last{
+        display: none;
     }
   }
   
@@ -269,6 +287,24 @@
     .ecommerce__title-container{
         text-align: center;
     }
+
+    .longer{
+        margin-bottom: 10px;
+    }
+
+    .industry__second-text{
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 693px){
+    .possibilities__item-title{
+        font-size: 17px;
+    }
+
+    .carousel-item{
+        height: 400px;
+    }
 }
 
 @media (max-width: 652px){
@@ -287,10 +323,18 @@
     }
 
     .brands-container{
-        margin: 0 auto;
         display: grid;
-        grid-template-rows: 50px 50px 50px 50px 50px 50px 50px;
+        grid-template-rows: 60px 60px 60px 60px;
         grid-template-columns: 48% 48%;
+        justify-items: center;
+    }
+
+    .brands-container img{
+        margin-left: 0;
+    }
+
+    .possibilities__item-container{
+        margin-bottom: 120px;
     }
 
     .industry-item {
@@ -298,10 +342,210 @@
     }
 }
 
+@media (max-width: 640px){
+    .stats-wrapper{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .stats__title-col{
+        height: 200px;
+        width: 80%;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stats__btn-container{
+        height: 90px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stats-btn{
+        margin-bottom: 25px;
+        width: 40%;
+    }
+
+    .stats-link{
+        width: 30%;
+        margin-top: 0;
+    }
+
+    .stats-title{
+        width: 80%;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .stats-pwc{
+        margin-top: 0;
+    }
+
+    .stats-report{
+        width: 22%;
+        margin-top: 0;
+    }
+
+    .stats__first-col{
+        width: 80%;
+        border: 0;
+        margin-top: 70px;
+    }
+
+    .stats__second-col{
+        width: 80%;
+    }
+
+    .stats__col-item{
+        height: 128px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        border-bottom: 2px solid #E0E0E0;
+    }
+}
+
+@media (max-width: 622px){
+    .possibilities__item-title{
+        font-size: 15px;
+    }
+
+    .possibilities__item-text{
+        font-size: 13px;
+    }
+
+    .carousel-item{
+        height: 350px;
+    }
+}
+
+@media (max-width: 605px){
+    .ecosystem-img{
+        margin-top: 80px;
+    }
+
+    .footer-inp{
+        width: 25%;
+    }
+
+    .footer-btn{
+        width: 25%;
+    }
+}
+
+@media (max-width: 585px){
+    .products__btn-container{
+        width: 60%;
+    }
+    
+    .carousel-item{
+       width: 100%;
+       height: 500px;
+    }
+
+    .carousel-second{
+        display: none;
+    }
+
+    .ecosystem-img{
+        margin-top: 120px;
+        width: 100%;
+    }
+
+    .industry-first{
+        margin-bottom: 10px;
+    }
+
+    .industry-text{
+        font-size: 13px;
+    }
+
+    .industry__second-text{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 552px){
+    .possibilities__item-container{
+        width: 90%;
+    }
+
+    .possibilities-item{
+        width: 48%;
+    }
+
+    .possibilities-second{
+        margin-top: 0;
+    }
+
+    .possibilities__first-item{
+      line-height: 45px;
+    }
+
+    .industry__item-container {
+        grid-template-rows: 220px 220px 220px;
+    }
+}
+
 @media (max-width: 480px){
     .ecommerce-title{
         font-size: 40px;
         line-height: 35px;
+    }
+
+    .ecommerce__text-container{
+        width: 70%;
+    }
+
+    .ecommerce-form{
+        width: 100%;
+    }
+
+    .industry__item-title{
+        font-size: 16px;
+    }
+
+    .industry-text{
+       line-height: 18px;
+    }
+
+    .products-title{
+        font-size: 35px;
+    }
+
+    .carousel-title{
+        font-size: 35px;
+    }
+
+    .stats-btn{
+        margin-bottom: 10px;
+    }
+
+    .stats-title{
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 467px){
+    .ecosystem-img{
+        margin-top: 170px;
+        width: 100%;
+    }
+
+    .ecosystem__text-container{
+        height: 400px;
+    }
+
+    .ecosystem-btn{
+        width: 80%;
     }
 }
 
@@ -315,6 +559,170 @@
     }
 }
 
-@media (max-width: 540px){
+@media (max-width: 410px){
+    .ecommerce-inp{
+        width: 31%;
+    }
 
+    .ecommerce-btn{
+        width: 31%;
+    }
+
+    .products-title{
+        font-size: 30px;
+    }
+
+    .products__btn-container{
+        width: 80%;
+    }
+
+    .possibilities__item-title{
+        line-height: 25px;
+    }
+
+    .stats__title-col{
+        height: 270px;
+    }
+
+    .stats-link{
+        margin-top: 15px;
+    }
+
+    .industry-wrapper{
+        margin-right: 30px;
+    }
+
+    .ecosystem-wrapper{
+        width: 90%;
+    }
+
+    .ecosystem-img{
+        margin-top: 70px;
+    }
+
+    .footer-inp{
+        width: 35%;
+    }
+
+    .footer-btn{
+        width: 35%;
+    }
 }
+
+@media (max-width: 380px){
+    .ecommerce__text-container{
+        width: 85%;
+    }
+
+    .stats-report{
+        width: 40%;
+    }
+
+    .industry-wrapper{
+        margin-right: 0;
+    }
+
+    .industry__item-container {
+        margin-left: 12px;
+        grid-template-columns:90%;
+        grid-template-rows: 220px 220px 220px 220px 220px 220px;
+      }
+
+    .carousel-item{
+        height: 400px;
+    }
+
+    .stats-link{
+        width: 60%;
+    }
+
+    .possibilities__item-container{
+        justify-content: center;
+    }
+
+    .possibilities-item{
+        width: 90%;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 360px){
+    .ecosystem-img{
+        margin-top: 130px;
+    }
+
+    .products-title{
+        font-size: 28px;
+        padding-top: 40px;
+    }
+
+    .commerceal-title{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 340px){
+
+    .ecommerce-inp{
+        width: 40%;
+    }
+    
+    .ecommerce-btn{
+        width: 40%;
+    }
+
+    .products__btn-container{
+        width: 90%;
+    }
+
+    .stats-btn{
+        width: 60%;
+    }
+
+    .ecosystem__text-container{
+        width: 90%;
+    }
+
+    .ecosystem-img{
+        margin-top: 110px;
+    }
+
+    .footer-title{
+        font-size: 33px;
+    }
+}
+
+@media (max-width: 320px){
+    .stats-pwc{
+        margin-top: 10px;
+    }
+
+    .stats-report{
+        width: 55%;
+    }
+
+    .ecommerce-title{
+        font-size: 35px;
+    }
+
+    .products-title{
+        font-size: 25px;
+    }
+
+    .commerceal__item-title{
+        font-size: 20px;
+    }
+
+    .commerceal__item-text{
+        font-size: 15px;
+    }
+
+    .footer-btn{
+        width: 40%;
+    }
+
+    .footer-inp{
+        width: 40%;
+    }
+}
+
